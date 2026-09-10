@@ -1,0 +1,1 @@
+Document ``trio.lowlevel.ParkingLot.broken_by``.

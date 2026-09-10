@@ -153,6 +153,7 @@ class ParkingLot:
     _parked: OrderedDict[Task, None] = attrs.field(factory=OrderedDict, init=False)
     broken_by: list[Task] = attrs.field(factory=list, init=False)
 
+
     def __len__(self) -> int:
         """Returns the number of parked tasks."""
         return len(self._parked)
